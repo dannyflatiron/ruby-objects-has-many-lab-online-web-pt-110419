@@ -37,7 +37,7 @@ class Artist
   def self.song_count
     # how do I get the total # of songs associate to all existing artistd?
     # where are the songs associated to all the artists?
-    self.Song.all
+    Song.all
   end
 
 end
