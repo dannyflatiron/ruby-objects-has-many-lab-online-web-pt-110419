@@ -20,7 +20,7 @@ class Artist
 
   def add_song(song)
     song.artist = self
-    # the song belongs to the artist 
+    # the song belongs to the artist
   end
 
   def add_song_by_name
