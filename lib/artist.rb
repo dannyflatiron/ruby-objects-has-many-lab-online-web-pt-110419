@@ -23,11 +23,7 @@ class Artist
     # the song belongs to the artist 
   end
 
-  # def add_song(song)
-    # according to the test "expected [] to include Songclass object"
-    # ^this means I have to shovel self into an array
-    #where is the array?
-    # when does an artist add another song to their list? When they write the song....therefore....it is the Artist's responsbility to add a new song to their collection not the song itself
-  # end
+  def add_song_by_name
+  end
 
 end
