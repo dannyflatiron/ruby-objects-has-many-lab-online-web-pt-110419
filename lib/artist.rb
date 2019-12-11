@@ -23,7 +23,7 @@ class Artist
     # the song belongs to the artist
   end
 
-  def add_song_by_name
+  def add_song_by_name(song_name)
   end
 
 end
