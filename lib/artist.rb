@@ -24,12 +24,20 @@ class Artist
   end
 
   def add_song_by_name(song_name)
+    # the add_song method already provides the code necessary to associate song and artist
+    # how do I use it?
+    # I need to pass an argument into add_song
+    # cannot pass song_name because it is not a new song
+    # create a variable to store new song
     song = Song.new(song_name)
     add_song(song)
     # binding.pry
   end
 
   def self.song_count
+    # how do I get the total # of songs associate to all existing artistd?
+    # where are the songs associated to all the artists?
+    self
   end
 
 end
